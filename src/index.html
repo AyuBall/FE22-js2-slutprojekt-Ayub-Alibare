@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="/src/modules/index.ts" ></script>
+        <link rel="stylesheet" href="./style.css" />
+        <title>Lvls</title>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="module" src="/src/modules/index.ts"></script>
-  <link rel="stylesheet" href="./style.css">
-  <title>Lvls</title>
-</head>
+    <body>
+        <main>
+            <!-- head -->
+            <div id="header-data">
+                <div class="profile">
+                    <!-- <h2>user</h2> -->
+                </div>
+                <div class="logo">
+                    <h1 id="home">Lvls</h1>
+                    <h2 id="topic">Talk about the latest BB News</h2>
+                    <img src="images/logo.png" alt="Lvls logo" />
+                    <button type="submit" class="buttons" id="logout-btn">Logout</button>
+                </div>
+            </div>
 
-<body>
-  <main>
-    <!-- head -->
-    <div id="header-data">
-      <div class="profile">
-        <!-- <h2>user</h2> -->
-      </div>
-      <div class="logo">
-        <h1 id="home">Lvls</h1>
-        <h2 id="topic">Talk about the latest BB News</h2>
-        <button id="loginbutton">Creatdad Account</button>
-        <img src="images/logo.png" alt="Lvls logo">
-        <button type="submit" class="buttons" id="logout-btn">Logout</button>
-      </div>
-    </div>
+            <!-- log in -->
 
-    <!-- log in -->
+            <div class="form-wrapper col">
+                <div class="row">
+                </div>
+                <form id="login-form">
+                    <div class="inputs-div">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" value="Baby" required />
 
-    <div class="form-wrapper col">
-      <div class="row">
-        <h3 class="account-title">Welcome back</h3>
-      </div>
-      <form id="login-form">
-        <div class="inputs-div">
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" value="Baby" required />
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" value="Caddy" required />
 
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" value="Caddy" required />
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="Mail" required />
+                    </div>
+                        <img width="150px" src="../src/images/pic1.jpg" alt="pic1" >
+                    <input type="radio"  name="fav_language" value="pic1.jpg" required/>
+                      <label for="optionone">option 1</label><br />
 
-          <label for="email">Email:</label>
-          <input type="text" id="email" name="email" value="Mail" required />
-        </div>
+                     <img width="150 px" src=".//images/pic2.jpg" alt="pic2">
+                    <input type="radio"  name="fav_language" value="pic2.jpg" required />
+                      <label for="optiontwo">option 2</label><br />
 
+                     <img width="150 px" src=".//images/pic3.jpg" alt="pic3">
+                    <input type="radio" name="fav_language" value="pic3.jpg" required />
+                      <label for="optionthree">option 3</label><br />
 
-        <input type="radio" id="html" name="fav_language" value="pic1.jpg">
-          <label for="html">option 1</label><br>
-
-
-          <input type="radio" id="css" name="fav_language" value="pic2.jpg">
-          <label for="css">option 2</label><br>
-
-
-
-          <input type="radio" id="javascript" name="fav_language" value="pic3.jpg">
-          <label for="javascript">option 3</label>
-        <div class="col">
-  </main>
-</body>
-
+                     
+                    <!-- <input type="radio" id="javascript" name="fav_language" value="pic3.jpg" />
+                    <label for="javascript">option 3</label> -->
+                    <input type="submit" id="loginbutton" value="Create Account">
+                </form>
+            </div>
+        </main>
+    </body>
 </html>

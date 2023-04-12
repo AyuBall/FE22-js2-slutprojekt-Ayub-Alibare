@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="/src/modules/login.ts"></script>
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+        <title>My account</title>
+    </head>
+    <body>
+        <header><h1>Lvls</h1></header>
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Profiles">Profile</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+          <div>
+            <h3>annan user</h3>
+          </div>
+        </aside>
+
+        <main>
+          <div>
+            <img id="profilePic" src="/src/images/logo.png" alt="profilePic">
+            <div>
+              <h2 id="anvandare">username</h2>
+              <h2 id="mailaddress">email</h2>
+              <button id="addStatus">Addstatus</button>
+            </div>
+          </div>
+
+          <div>
+            <label for="status"></label> <input type="text" placeholder="statsupdate" >
+            <h4>jag promenerade igår nananananannananananan</h4>
+          </div>
+        </main>
+
+
+        <footer>
+          <button id="deleteBtn">Delete Account</button>
+        </footer>
+    </body>
+</html>
