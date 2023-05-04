@@ -1,0 +1,167 @@
+/* Matrix Theme */
+
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#header-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.logo h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#login {
+    color: #00ff00;
+    font-size: 14px;
+    text-decoration: none;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inputs-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+ {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.choosePic {
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00ff00;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: #00ff00;
+}
+
+body {
+     background-image: url(https://64.media.tumblr.com/90745e74ce8cd00b89f7d03370c67f40/9e262ae8cfde02ea-c0/s500x750/e7afbc1acce301cc47f85ebe5a8dc84ed6d9d633.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside {
+  position: absolute;
+  right:0px;
+  background-color:grey;
+  padding: 1rem;
+}
+
+li{
+    list-style: none;
+    color:green;
+    padding:0.5rem;
+}
+li a{
+    list-style: none;
+    color:green;
+    font-style: bold;
+}
+aside div{
+    border-color: black;
+    border-style: solid;
+    padding: 1rem;
+}
+
+/* Set background color to black */
+body {
+    background-color: black;
+}
+
+/* Set font color to green */
+label,
+input,
+#registerLink {
+    color: #00ff00;
+}
+
+/* Set border color to green */
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    border: 1px solid #00ff00;
+}
+
+/* Set hover color to green */
+input[type="submit"]:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+/* Set padding and margin */
+.inputs-div {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Set font family and size */
+label,
+input,
+#registerLink {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+/* Set link color and hover color */
+#registerLink,
+#login {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+#registerLink:hover,
+#login:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
